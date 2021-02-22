@@ -5,7 +5,6 @@ exports.min = function min(array) {
 
 exports.max = function max(array) {
     if (!array || !array.length) return 0;
-
     return Math.max(...array);
 };
 
